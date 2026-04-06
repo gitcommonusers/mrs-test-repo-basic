@@ -1,4 +1,8 @@
 function plan = buildfile()
+  % --- THIS IS OUR PROBE ---
+  fprintf('\n\n>>> EXECUTING BUILDFILE.M VERSION 2 (THE CORRECTED ONE) <<<\n\n');
+  % --- END PROBE ---
+  
   % Create a plan from the current folder.
   plan = buildplan; % <--- THIS IS THE CORRECT SYNTAX
 
