@@ -1,6 +1,6 @@
 function plan = buildfile()
   % Create a plan from the current folder.
-  plan = buildplan(pwd);
+  plan = buildplan; % <--- THIS IS THE CORRECT SYNTAX
 
   % Add a "test" task to run all tests.
   plan("test") = matlab.buildtool.tasks.TestTask();
